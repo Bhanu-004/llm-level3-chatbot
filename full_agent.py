@@ -11,7 +11,7 @@ import translator_tool
 from datetime import datetime
 
 # ========== Gemini Setup ==========
-genai.configure(api_key=os.getenv("GEMINI_API_KEY") or "AIzaSyBhP4-zGDNln9jFISGZOkdDD6VaioVO5T0")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY") or "your-api-key")
 model = genai.GenerativeModel("models/gemini-2.5-pro")
 chat = model.start_chat(history=[])
 
@@ -150,3 +150,4 @@ def send_message():
 
 # ========== Run App ==========
 root.mainloop()
+
