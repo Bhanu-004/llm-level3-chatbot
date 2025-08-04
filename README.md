@@ -26,9 +26,7 @@ This agent supports natural language queries with step-by-step task execution �
 
 ---
 
-##  File Structure
-├── full_agent_gui.py # Main chatbot logic
-├── calculator_tool.py # Math operation handler
-├── translator_tool.py # Text translation (to German)
-├── interaction_logs.txt # Chat log (plaintext)
-├── interaction_logs.json # Chat log (structured)
+<img width="526" height="475" alt="lv31" src="https://github.com/user-attachments/assets/f8410ad6-4f29-4129-8445-d00aa360c4ea" />
+
+
+
